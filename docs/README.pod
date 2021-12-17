@@ -41,6 +41,8 @@ feature.
 
 Tom Browder <tbrowder@acm.org>
 
+Kamil Kułaga [github:teodozjan (original author)]
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2021 Tom Browder

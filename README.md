@@ -36,6 +36,8 @@ AUTHOR
 
 Tom Browder <tbrowder@acm.org>
 
+Kamil Kułaga [github:teodozjan (original author)]
+
 COPYRIGHT AND LICENSE
 =====================
 

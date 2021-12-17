@@ -1,7 +1,8 @@
 {
   "auth": "zef:tbrowder",
   "authors": [
-    "Tom Browder <tbrowder@acm.org>"
+    "Tom Browder <tbrowder@acm.org>",
+    "github:teodozjan (original author)"
   ],
   "build-depends": [
   ],
