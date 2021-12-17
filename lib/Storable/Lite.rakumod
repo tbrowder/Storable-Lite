@@ -1,0 +1,3 @@
+unit class Storable::Lite;
+
+
