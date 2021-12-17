@@ -22,12 +22,12 @@ ORIGINAL DESCRIPTION (rakuized)
 
 .raku serialization class and module
 
-This module will work only for only simple situations. All data that is not visible after calling [.raku](http://doc.raku.org/routine/perl) method will be lost. This may be considered as a limitation or feature.
+This module will work only for only simple situations. All data that is not visible after calling [.raku](http://doc.raku.org/routine/perl) method will be lost. This may be considered a limitation or feature.
 
 ```raku my Bar $bar .= new(a=> 128); my Foo $foo .= new(u=> 'Gore', bar => $bar);
 
-    $foo.to_file('tt1.pl');
-    my $tested = Foo.from_file('tt1.pl');
+    $foo.to-file('tt1.raku');
+    my $tested = Foo.from-file('tt1.raku');
 
 ```
 
