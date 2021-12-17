@@ -1,13 +1,13 @@
 {
   "auth": "zef:tbrowder",
   "authors": [
-    "Tom Browder"
+    "Tom Browder <tbrowder@acm.org>"
   ],
   "build-depends": [
   ],
   "depends": [
   ],
-  "description": "blah blah blah",
+  "description": "Provides persistent storage of Raku classes and other types in the local user's file system",
   "license": "Artistic-2.0",
   "name": "Storable::Lite",
   "perl": "6.d",
@@ -16,7 +16,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/tbrowder/Storable-Lite.git",
   "tags": [
   ],
   "test-depends": [

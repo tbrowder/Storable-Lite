@@ -2,7 +2,8 @@
 
 =head1 NAME
 
-Storable::Lite - blah blah blah
+Storable::Lite - Provides persistent storage of Raku classes and other
+types in the local user's file system
 
 =head1 SYNOPSIS
 
@@ -14,7 +15,27 @@ use Storable::Lite;
 
 =head1 DESCRIPTION
 
-Storable::Lite is ...
+B<Storable::Lite> is a copy of the current Raku module B<PerlStore> with
+a name change and other changes to reflect the new Raku name of the
+original Perl 6. It is also now under management of B<App::Mi6> and
+published to the B<Zef> Raku module repository.
+
+=head1 ORIGINAL DESCRIPTION (rakuized)
+
+.raku serialization class and module
+
+This module will work only for only simple situations. All data that
+is not visible after calling [.raku](http://doc.raku.org/routine/perl)
+method will be lost. This may be considered as a limitation or
+feature.
+
+```raku
+    my Bar $bar .= new(a=> 128);
+    my Foo $foo .= new(u=> 'Gore', bar => $bar);
+
+    $foo.to_file('tt1.pl');
+    my $tested = Foo.from_file('tt1.pl');
+```
 
 =head1 AUTHOR
 
