@@ -1,6 +1,8 @@
 Revision history for Storable-Lite
 
 {{$NEXT}}
+
+0.0.2  2021-12-29T19:56:27-06:00
     - Quieten tests
 
 0.0.1  2021-12-17T15:51:36-06:00
