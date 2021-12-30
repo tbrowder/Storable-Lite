@@ -14,9 +14,10 @@ class Foo does FileStore {
     has Bar $.bar;
 }
 
-# quietly {} NIY
-nok from-file('nox.raku'), 'Reading non existent Any';
-nok Foo.from-file('sernox'), 'Reading non existent object';
+quietly {
+    nok from-file('nox.raku'), 'Reading non existent Any';
+    nok Foo.from-file('sernox'), 'Reading non existent object';
+}
 
 {
     my %hash = "Foo" => "Bar", "Bar" => "Foo";

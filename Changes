@@ -1,6 +1,7 @@
 Revision history for Storable-Lite
 
 {{$NEXT}}
+    - Quieten tests
 
 0.0.1  2021-12-17T15:51:36-06:00
     - Initial version
